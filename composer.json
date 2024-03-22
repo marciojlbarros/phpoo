@@ -1,0 +1,22 @@
+{
+    "name": "marciobarros/phpoo",
+    "authors": [
+        {
+            "name": "Marcio Barros",
+            "email": "marciojlbarros@gmail.com"
+        }
+    ],
+    "require": {
+        "league/plates": "^3.5",
+        "symfony/var-dumper": "^7.0",
+        "symfony/console": "^7.0"
+    },
+    "autoload":{
+        "psr-4":{
+            "app\\":"app"
+        },
+        "files":[
+            "app/helpers/json.php"
+        ]
+    }
+}
